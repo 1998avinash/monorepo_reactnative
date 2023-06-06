@@ -32,7 +32,7 @@ jobs:
           cd packages/mobile-app
           yarn ios:build
 
-      - name: Test
+      - name: Test1
         run: |
           yarn test
 
