@@ -24,6 +24,6 @@ jobs:
           
       - name: Build Android
         run: |
-          cd packages/app/android/app
+          cd packages/app/android
           yarn android:build
 
